@@ -1,0 +1,294 @@
+@font-face {
+	font-family: 'icomoon';
+	src:url('fonts/icomoon.eot');
+	src:url('fonts/icomoon.eot?#iefix') format('embedded-opentype'),
+		url('fonts/icomoon.woff') format('woff'),
+		url('fonts/icomoon.ttf') format('truetype'),
+		url('fonts/icomoon.svg#icomoon') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+/* Use the following CSS code if you want to use data attributes for inserting your icons */
+[data-icon]:before {
+	font-family: 'icomoon';
+	content: attr(data-icon);
+	speak: none;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+}
+
+/* Use the following CSS code if you want to have a class per icon */
+/*
+Instead of a list of all class selectors,
+you can use the generic selector below, but it's slower:
+[class*="icon-"] {
+*/
+.icon-pencil, .icon-facebook, .icon-facebook-2, .icon-feed, .icon-feed-2, .icon-twitter, .icon-twitter-2, .icon-github, .icon-github-2, .icon-stackoverflow, .icon-skype, .icon-linkedin, .icon-reddit, .icon-pinterest, .icon-mail, .icon-paperplane, .icon-layout, .icon-arrow-left, .icon-arrow-down, .icon-arrow-up, .icon-arrow-right, .icon-arrow-left-2, .icon-arrow-down-2, .icon-arrow-up-2, .icon-arrow-right-2, .icon-arrow-left-3, .icon-arrow-down-3, .icon-arrow-up-3, .icon-arrow-right-3, .icon-tags, .icon-tag, .icon-blogger, .icon-blogger-2, .icon-star, .icon-star-2, .icon-star-3, .icon-heart, .icon-heart-2, .icon-close, .icon-cancel-circle, .icon-blocked, .icon-notification, .icon-question, .icon-info, .icon-warning, .icon-checkmark-circle, .icon-info-2, .icon-spam, .icon-checkmark, .icon-checkmark-2, .icon-minus, .icon-plus, .icon-bubbles, .icon-bubbles-2, .icon-bubble, .icon-bubble-2, .icon-bubbles-3, .icon-bubbles-4, .icon-user, .icon-users, .icon-user-2, .icon-users-2, .icon-user-3, .icon-undo, .icon-redo, .icon-envelop, .icon-phone, .icon-phone-hang-up, .icon-home, .icon-home-2, .icon-remove, .icon-remove-2, .icon-lock, .icon-lock-2, .icon-key, .icon-unlocked, .icon-cog, .icon-fire, .icon-menu, .icon-github-3, .icon-cloud-download, .icon-cloud-upload, .icon-linkedin-2, .icon-pinterest-2, .icon-list {
+	font-family: 'icomoon';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+}
+.icon-pencil:before {
+	content: "\e00a";
+}
+.icon-facebook:before {
+	content: "\e00c";
+}
+.icon-facebook-2:before {
+	content: "\e00d";
+}
+.icon-feed:before {
+	content: "\e00e";
+}
+.icon-feed-2:before {
+	content: "\e00f";
+}
+.icon-twitter:before {
+	content: "\e010";
+}
+.icon-twitter-2:before {
+	content: "\e011";
+}
+.icon-github:before {
+	content: "\e012";
+}
+.icon-github-2:before {
+	content: "\e014";
+}
+.icon-stackoverflow:before {
+	content: "\e017";
+}
+.icon-skype:before {
+	content: "\e018";
+}
+.icon-linkedin:before {
+	content: "\e019";
+}
+.icon-reddit:before {
+	content: "\e01a";
+}
+.icon-pinterest:before {
+	content: "\e01b";
+}
+.icon-mail:before {
+	content: "\e001";
+}
+.icon-paperplane:before {
+	content: "\e002";
+}
+.icon-layout:before {
+	content: "\e000";
+}
+.icon-arrow-left:before {
+	content: "\e003";
+}
+.icon-arrow-down:before {
+	content: "\e004";
+}
+.icon-arrow-up:before {
+	content: "\e005";
+}
+.icon-arrow-right:before {
+	content: "\e006";
+}
+.icon-arrow-left-2:before {
+	content: "\e007";
+}
+.icon-arrow-down-2:before {
+	content: "\e008";
+}
+.icon-arrow-up-2:before {
+	content: "\e009";
+}
+.icon-arrow-right-2:before {
+	content: "\e01c";
+}
+.icon-arrow-left-3:before {
+	content: "\e01d";
+}
+.icon-arrow-down-3:before {
+	content: "\e01e";
+}
+.icon-arrow-up-3:before {
+	content: "\e01f";
+}
+.icon-arrow-right-3:before {
+	content: "\e020";
+}
+.icon-tags:before {
+	content: "\e00b";
+}
+.icon-tag:before {
+	content: "\e021";
+}
+.icon-blogger:before {
+	content: "\e022";
+}
+.icon-blogger-2:before {
+	content: "\e023";
+}
+.icon-star:before {
+	content: "\e025";
+}
+.icon-star-2:before {
+	content: "\e026";
+}
+.icon-star-3:before {
+	content: "\e027";
+}
+.icon-heart:before {
+	content: "\e028";
+}
+.icon-heart-2:before {
+	content: "\e029";
+}
+.icon-close:before {
+	content: "\e02a";
+}
+.icon-cancel-circle:before {
+	content: "\e02b";
+}
+.icon-blocked:before {
+	content: "\e02c";
+}
+.icon-notification:before {
+	content: "\e02d";
+}
+.icon-question:before {
+	content: "\e02e";
+}
+.icon-info:before {
+	content: "\e02f";
+}
+.icon-warning:before {
+	content: "\e030";
+}
+.icon-checkmark-circle:before {
+	content: "\e031";
+}
+.icon-info-2:before {
+	content: "\e032";
+}
+.icon-spam:before {
+	content: "\e033";
+}
+.icon-checkmark:before {
+	content: "\e034";
+}
+.icon-checkmark-2:before {
+	content: "\e035";
+}
+.icon-minus:before {
+	content: "\e036";
+}
+.icon-plus:before {
+	content: "\e037";
+}
+.icon-bubbles:before {
+	content: "\e038";
+}
+.icon-bubbles-2:before {
+	content: "\e039";
+}
+.icon-bubble:before {
+	content: "\e03a";
+}
+.icon-bubble-2:before {
+	content: "\e03b";
+}
+.icon-bubbles-3:before {
+	content: "\e03c";
+}
+.icon-bubbles-4:before {
+	content: "\e03d";
+}
+.icon-user:before {
+	content: "\e03e";
+}
+.icon-users:before {
+	content: "\e03f";
+}
+.icon-user-2:before {
+	content: "\e040";
+}
+.icon-users-2:before {
+	content: "\e041";
+}
+.icon-user-3:before {
+	content: "\e042";
+}
+.icon-undo:before {
+	content: "\e043";
+}
+.icon-redo:before {
+	content: "\e044";
+}
+.icon-envelop:before {
+	content: "\e045";
+}
+.icon-phone:before {
+	content: "\e046";
+}
+.icon-phone-hang-up:before {
+	content: "\e047";
+}
+.icon-home:before {
+	content: "\e048";
+}
+.icon-home-2:before {
+	content: "\e049";
+}
+.icon-remove:before {
+	content: "\e04a";
+}
+.icon-remove-2:before {
+	content: "\e04b";
+}
+.icon-lock:before {
+	content: "\e04c";
+}
+.icon-lock-2:before {
+	content: "\e04d";
+}
+.icon-key:before {
+	content: "\e04e";
+}
+.icon-unlocked:before {
+	content: "\e04f";
+}
+.icon-cog:before {
+	content: "\e050";
+}
+.icon-fire:before {
+	content: "\e051";
+}
+.icon-menu:before {
+	content: "\e024";
+}
+.icon-github-3:before {
+	content: "\e016";
+}
+.icon-cloud-download:before {
+	content: "\f0ed";
+}
+.icon-cloud-upload:before {
+	content: "\f0ee";
+}
+.icon-linkedin-2:before {
+	content: "\e013";
+}
+.icon-pinterest-2:before {
+	content: "\e015";
+}
+.icon-list:before {
+	content: "\e052";
+}

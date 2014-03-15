@@ -1,8 +1,97 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<title>Robert Hickman | Web Dev</title>
+
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0"/>
+
+	<link rel="shortcut icon" href="favicon.ico">
+	<link href="http://fonts.googleapis.com/css?family=ABeeZee" rel="stylesheet" type="text/css">
+	<link rel=StyleSheet href="font/icomoon-custom/style.css" type="text/css" media=screen>
+	
+	<link rel=StyleSheet href="lib/snippet/jquery.snippet.typical_custom.css" type="text/css" media=screen>
+	<link rel=StyleSheet href="css/index.css" type="text/css" media=screen>
 </head>
 <body>
-  <h1>Hello, World!</h1>
+<div class="main-wrapper">
+	<header class="main-header">
+		<div class="nav-wrapper">
+			<button class="nav-button">
+				<i class="nav-icon icon-layout"></i>
+			</button>
+			<div class="close-button-wrapper">
+				<button class="close-button">
+					<i class="icon-cancel-circle"></i>
+				</button>
+			</div>
+			<div class="nav-content">
+				<a href="#aboutme" class="scroll-element nav-element aboutme heading-font">About Me</a>
+				<a href="#projects" class="scroll-element nav-element projects">&#60;projects&#62;</a>
+				<ul class="social-list">
+					<a href="http://robhobbes.blogspot.com/"><li>
+						<i class="icon-blogger"></i>
+					</li></a>
+					<a href="http://twitter.com/robhobbes"><li>
+						<i class="icon-twitter"></i>
+					</li></a>
+					<a href="http://www.linkedin.com/pub/robert-hickman/47/170/79a"><li>
+						<i class="icon-linkedin"></i>
+					</li></a>
+					<a href="https://github.com/robhobbes/"><li>
+						<i class="icon-github-3"></i>
+					</li></a>
+				</ul>
+				<a class="nav-element email" href="mailto:robhobbes@gmail.com">gmail: robhobbes</a>
+			</div>
+		</div>
+	</header>
+	<div class="main-content">
+		<div class="helper"></div>
+		<section class="aboutme">
+			<h2>Robert M. Hickman</h2>
+			
+			<div class="portrait"><img src="img/roberthickman.png" alt="Portrait of Robert Hickman"></div>
+			<p>I'm a web developer and designer from California.</p>
+			<p>I fell in love with design when a friend got me into HTML back in middle school. I fell in love with programming as a freshman in college. I enjoy programming and design because of the challenge and because of the final product. It's fun to say, "I made this!"</p>
+			<p>When I'm not developing, I'm reading fantasy, running, or spending quality time with my wife.</p>
+		</section>
+		<section class="projects">
+			<h2>Projects</h2>
+
+			<h3>OpenSeadragon</h3>
+			<p><a href="http://openseadragon.github.io">OpenSeadragon</a> is an open-source, deep-zoom image viewer written in javascript. As part of my internship at <a href="http://familysearch.org">FamilySearch.org</a> (Summer 2013) I contributed to and learned about the OpenSeadragon code base.</p>
+      
+      <h3>oxidize</h3>
+      <p>oxidize is an open-source, web framework built in Mozilla's new language, <a href="http://www.rust-lang.org/">Rust</a>. Some friends and I are working on it for a school project (Winter 2014). We hope to make the framework easy to use, highly performant, and fully featured. Check us out on <a href="https://github.com/jroweboy/oxidize">GitHub</a>!
+
+			<h3>WordClock.JS</h3>
+			<div class="clock"></div>
+			<p>WordClock.JS is a javascript implementation of a <a href="http://dougswordclock.com/">clock from dougswordclock.com</a>. WordClock.JS is dependent on jQuery. You can download the <a href="js/WordClock.js">source code.</a> Use the clock as shown below:</p>
+			<div class="code-wrapper">
+<pre class="js">
+  /**
+   * "selector" is a css selector of an
+   * existing element that the clock
+   * will go inside
+   */
+  var clock = new WordClock(selector);
+  clock.start();</pre>
+			</div>
+			<p>The code inserts styleable elements into the specified element. Elements that should be shown have the class "active" applied to them.</p>
+      
+      <h3>MusicStudy Pro</h3>
+      <p><a href="http://students.cs.byu.edu/~hickmanr/cs256/">MusicStudy Pro</a> is the prototype of a study tool that my group built during the user experience design course (Fall 2013). It isn't a perfect product, but designing it and building it taught me a lot about talking to users to really understand what problems the UI needs to solve.</p>
+		</section>
+		<div class="helper"></div>
+	</div>
+</div>
+<div class="clouds-wrapper">
+	<div class="clouds"></div>
+	<div class="clouds2"></div>
+</div>
+<script src="js/WordClock.js"></script>
+<script src="http://code.jquery.com/jquery-latest.min.js"></script>
+<script src="lib/snippet/jquery.snippet.min.js"></script>
+<script src="js/index.js"></script>
 </body>
 </html>
