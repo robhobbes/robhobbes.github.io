@@ -115,6 +115,15 @@ table{
 	min-height: 350px;
 }
 
+/* OXIDIZE */
+
+.oxidize-logo{
+	height: 3.5em;
+	position: relative;
+	float: left;
+	margin: 25px 15px 2px 4px;
+}
+
 /* CLOCK */
 
 .clock{
@@ -358,6 +367,12 @@ table{
 	.clock{
 		width: 95%;
 		float: none;
-		margin: 0;
+		margin: 10px 0 0 0;
 	}
+  .oxidize-logo{
+    width: 95%;
+    height: auto;
+    float: none;
+    margin: 10px 0 0 0;
+  }
 }
