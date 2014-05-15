@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>point plotter | robhobbes</title>
+  
+  <meta charset="utf-8">
+  <meta name="robots" context="index, follow">
+  <meta name="description" content="A simple point plotter and plot-image exporter written in javascript.">
+  
+  <link rel="shortcut icon" href="favicon.ico">
+  <link href="http://fonts.googleapis.com/css?family=ABeeZee" rel="stylesheet" type="text/css">
+  <link rel=StyleSheet href="font/icomoon-custom/style.css" type="text/css" media=screen>
+  <link href="css/plotter.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+  <div class="main-wrapper">
+    <header>
+      <h1>Point Plotter</h1>
+      <a href="./"><i class="icon-home-1"></i></a>
+    </header>
+    <div class="input">
+      <form>
+        <ul>
+          <li><label for="minX">Min X</label><input type="number" step=0.1 name="minX" id="minX" placeholder="-10"></li>
+          <li><label for="maxX">Max X</label><input type="number" step=0.1 name="maxX" id="maxX" placeholder="10"></li>
+          <li><label for="minY">Min Y</label><input type="number" step=0.1 name="minY" id="minY" placeholder="-10"></li>
+          <li><label for="maxY">Max X</label><input type="number" step=0.1 name="maxY" id="maxY" placeholder="10"></li>
+        </ul>
+        <label for="points">Points</label><br/>
+        <textarea name="points" id="points">(3,4) (-5,-2) (1,-1) (8,6)</textarea><br/>
+        <label for="lines">Lines?</label><input name="lines" id="lines" checked="true" type="checkbox">
+        <button id="draw">Draw</button>
+        <p class="instructions">Points should be space-separated list of coordinates. For example: (-4.3,10.2) (3.2,9).</p>
+        <p class="instructions">You may also specify if you would like lines to be drawn between points. If lines are drawn,
+        the points will first be sorted by x value, and then by y value and lines will be drawn consecutive points.</p>
+      </form>
+    </div>
+    <div class="output">
+      <canvas width="500" height="500" style="border: 5px #000 solid;"></canvas>
+      <!--- http://stackoverflow.com/questions/12796513/html5-canvas-to-png-file --->
+      <a id="download" class="download"><i class="icon-download"></i></a>
+    </div>
+  </div>
+  <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+  <script src="js/plotter.js"></script>
+</body>
+</html>

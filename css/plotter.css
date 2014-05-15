@@ -1,0 +1,78 @@
+body{
+  font-family: ABeeZee, Arial;
+  font-size: 12pt;
+  color: #111;
+}
+
+.main-wrapper{
+  display: inline-block;
+  width: 800px;
+}
+
+header{
+  background-color: #2be;
+  color: #fff;
+  margin-bottom: 10px;
+  position: relative;
+}
+
+header h1{
+  margin: 5px 0 5px 20px;
+}
+
+header a{
+  text-decoration: none;
+  color: #fff;
+  position: absolute;
+  right: 10px;
+  top: 4px;
+  font-size: 180%;
+}
+
+.input{
+  display: inline-block;
+  float: left;
+  padding: 0 10px;
+  width: 215px;
+  margin-right: 30px;
+}
+
+.input ul{
+  padding-left: 0;
+  list-style: none;
+  margin-top: 5px;
+  margin-bottom: 0;
+}
+
+.input ul label{
+  display: inline-block;
+  width: 55px;
+}
+
+.input textarea{
+  width: 100%;
+  height: 50;
+}
+
+.input button{
+  display: block;
+  width: 50px;
+  margin: 0 auto;
+}
+
+.output{
+  position: relative;
+  display: inline-block;
+}
+
+.output .download{
+  position: absolute;
+  top: 6px;
+  right: 8px;
+  opacity: 0.2;
+  cursor: pointer;
+}
+
+.output .download:hover{
+  opacity: 0.8;
+}

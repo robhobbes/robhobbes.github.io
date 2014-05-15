@@ -1,33 +1,15 @@
 @font-face {
 	font-family: 'icomoon';
-	src:url('fonts/icomoon.eot');
-	src:url('fonts/icomoon.eot?#iefix') format('embedded-opentype'),
-		url('fonts/icomoon.woff') format('woff'),
-		url('fonts/icomoon.ttf') format('truetype'),
-		url('fonts/icomoon.svg#icomoon') format('svg');
+	src:url('fonts/icomoon.eot?-2jkxr3');
+	src:url('fonts/icomoon.eot?#iefix-2jkxr3') format('embedded-opentype'),
+		url('fonts/icomoon.woff?-2jkxr3') format('woff'),
+		url('fonts/icomoon.ttf?-2jkxr3') format('truetype'),
+		url('fonts/icomoon.svg?-2jkxr3#icomoon') format('svg');
 	font-weight: normal;
 	font-style: normal;
 }
 
-/* Use the following CSS code if you want to use data attributes for inserting your icons */
-[data-icon]:before {
-	font-family: 'icomoon';
-	content: attr(data-icon);
-	speak: none;
-	font-weight: normal;
-	font-variant: normal;
-	text-transform: none;
-	line-height: 1;
-	-webkit-font-smoothing: antialiased;
-}
-
-/* Use the following CSS code if you want to have a class per icon */
-/*
-Instead of a list of all class selectors,
-you can use the generic selector below, but it's slower:
-[class*="icon-"] {
-*/
-.icon-pencil, .icon-facebook, .icon-facebook-2, .icon-feed, .icon-feed-2, .icon-twitter, .icon-twitter-2, .icon-github, .icon-github-2, .icon-stackoverflow, .icon-skype, .icon-linkedin, .icon-reddit, .icon-pinterest, .icon-mail, .icon-paperplane, .icon-layout, .icon-arrow-left, .icon-arrow-down, .icon-arrow-up, .icon-arrow-right, .icon-arrow-left-2, .icon-arrow-down-2, .icon-arrow-up-2, .icon-arrow-right-2, .icon-arrow-left-3, .icon-arrow-down-3, .icon-arrow-up-3, .icon-arrow-right-3, .icon-tags, .icon-tag, .icon-blogger, .icon-blogger-2, .icon-star, .icon-star-2, .icon-star-3, .icon-heart, .icon-heart-2, .icon-close, .icon-cancel-circle, .icon-blocked, .icon-notification, .icon-question, .icon-info, .icon-warning, .icon-checkmark-circle, .icon-info-2, .icon-spam, .icon-checkmark, .icon-checkmark-2, .icon-minus, .icon-plus, .icon-bubbles, .icon-bubbles-2, .icon-bubble, .icon-bubble-2, .icon-bubbles-3, .icon-bubbles-4, .icon-user, .icon-users, .icon-user-2, .icon-users-2, .icon-user-3, .icon-undo, .icon-redo, .icon-envelop, .icon-phone, .icon-phone-hang-up, .icon-home, .icon-home-2, .icon-remove, .icon-remove-2, .icon-lock, .icon-lock-2, .icon-key, .icon-unlocked, .icon-cog, .icon-fire, .icon-menu, .icon-github-3, .icon-cloud-download, .icon-cloud-upload, .icon-linkedin-2, .icon-pinterest-2, .icon-list {
+[class^="icon-"], [class*=" icon-"] {
 	font-family: 'icomoon';
 	speak: none;
 	font-style: normal;
@@ -35,30 +17,34 @@ you can use the generic selector below, but it's slower:
 	font-variant: normal;
 	text-transform: none;
 	line-height: 1;
+
+	/* Better Font Rendering =========== */
 	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
 }
+
 .icon-pencil:before {
 	content: "\e00a";
 }
-.icon-facebook:before {
+.icon-facebook-1:before {
 	content: "\e00c";
 }
 .icon-facebook-2:before {
 	content: "\e00d";
 }
-.icon-feed:before {
+.icon-broadcast-1:before {
 	content: "\e00e";
 }
-.icon-feed-2:before {
+.icon-broadcast-2:before {
 	content: "\e00f";
 }
-.icon-twitter:before {
+.icon-twitter-1:before {
 	content: "\e010";
 }
 .icon-twitter-2:before {
 	content: "\e011";
 }
-.icon-github:before {
+.icon-github-1:before {
 	content: "\e012";
 }
 .icon-github-2:before {
@@ -70,58 +56,58 @@ you can use the generic selector below, but it's slower:
 .icon-skype:before {
 	content: "\e018";
 }
-.icon-linkedin:before {
+.icon-linkedin-1:before {
 	content: "\e019";
 }
 .icon-reddit:before {
 	content: "\e01a";
 }
-.icon-pinterest:before {
+.icon-pinterest-1:before {
 	content: "\e01b";
 }
-.icon-mail:before {
+.icon-mail-1:before {
 	content: "\e001";
 }
-.icon-paperplane:before {
+.icon-mail-2:before {
 	content: "\e002";
 }
 .icon-layout:before {
 	content: "\e000";
 }
-.icon-arrow-left:before {
+.icon-left-arrow-1:before {
 	content: "\e003";
 }
-.icon-arrow-down:before {
+.icon-down-arrow-1:before {
 	content: "\e004";
 }
-.icon-arrow-up:before {
+.icon-up-arrow-1:before {
 	content: "\e005";
 }
-.icon-arrow-right:before {
+.icon-right-arrow-1:before {
 	content: "\e006";
 }
-.icon-arrow-left-2:before {
+.icon-left-arrow-2:before {
 	content: "\e007";
 }
-.icon-arrow-down-2:before {
+.icon-down-arrow-2:before {
 	content: "\e008";
 }
-.icon-arrow-up-2:before {
+.icon-up-arrow-2:before {
 	content: "\e009";
 }
-.icon-arrow-right-2:before {
+.icon-right-arrow-2:before {
 	content: "\e01c";
 }
-.icon-arrow-left-3:before {
+.icon-left-arrow-3:before {
 	content: "\e01d";
 }
-.icon-arrow-down-3:before {
+.icon-down-arrow-3:before {
 	content: "\e01e";
 }
-.icon-arrow-up-3:before {
+.icon-up-arrow-3:before {
 	content: "\e01f";
 }
-.icon-arrow-right-3:before {
+.icon-right-arrow-3:before {
 	content: "\e020";
 }
 .icon-tags:before {
@@ -130,61 +116,61 @@ you can use the generic selector below, but it's slower:
 .icon-tag:before {
 	content: "\e021";
 }
-.icon-blogger:before {
+.icon-blogger-1:before {
 	content: "\e022";
 }
 .icon-blogger-2:before {
 	content: "\e023";
 }
-.icon-star:before {
+.icon-star-full:before {
 	content: "\e025";
 }
-.icon-star-2:before {
+.icon-star-half:before {
 	content: "\e026";
 }
-.icon-star-3:before {
+.icon-star-empty:before {
 	content: "\e027";
 }
-.icon-heart:before {
+.icon-heart-1:before {
 	content: "\e028";
 }
 .icon-heart-2:before {
 	content: "\e029";
 }
-.icon-close:before {
+.icon-remove-1:before {
 	content: "\e02a";
 }
-.icon-cancel-circle:before {
+.icon-remove-2:before {
 	content: "\e02b";
 }
-.icon-blocked:before {
+.icon-remove-3:before {
 	content: "\e02c";
 }
-.icon-notification:before {
+.icon-exclaim-1:before {
 	content: "\e02d";
 }
 .icon-question:before {
 	content: "\e02e";
 }
-.icon-info:before {
+.icon-info-1:before {
 	content: "\e02f";
 }
-.icon-warning:before {
+.icon-exclaim-2:before {
 	content: "\e030";
 }
-.icon-checkmark-circle:before {
+.icon-check-1:before {
 	content: "\e031";
 }
 .icon-info-2:before {
 	content: "\e032";
 }
-.icon-spam:before {
+.icon-exclaim-3:before {
 	content: "\e033";
 }
-.icon-checkmark:before {
+.icon-check-2:before {
 	content: "\e034";
 }
-.icon-checkmark-2:before {
+.icon-check-3:before {
 	content: "\e035";
 }
 .icon-minus:before {
@@ -193,37 +179,37 @@ you can use the generic selector below, but it's slower:
 .icon-plus:before {
 	content: "\e037";
 }
-.icon-bubbles:before {
+.icon-chat-1:before {
 	content: "\e038";
 }
-.icon-bubbles-2:before {
+.icon-chat-2:before {
 	content: "\e039";
 }
-.icon-bubble:before {
+.icon-talk-1:before {
 	content: "\e03a";
 }
-.icon-bubble-2:before {
+.icon-talk2:before {
 	content: "\e03b";
 }
-.icon-bubbles-3:before {
+.icon-chat-3:before {
 	content: "\e03c";
 }
-.icon-bubbles-4:before {
+.icon-chat-4:before {
 	content: "\e03d";
 }
-.icon-user:before {
+.icon-person-1:before {
 	content: "\e03e";
 }
-.icon-users:before {
+.icon-people-1:before {
 	content: "\e03f";
 }
-.icon-user-2:before {
+.icon-person-2:before {
 	content: "\e040";
 }
-.icon-users-2:before {
+.icon-people-2:before {
 	content: "\e041";
 }
-.icon-user-3:before {
+.icon-person-3:before {
 	content: "\e042";
 }
 .icon-undo:before {
@@ -232,28 +218,28 @@ you can use the generic selector below, but it's slower:
 .icon-redo:before {
 	content: "\e044";
 }
-.icon-envelop:before {
+.icon-envelope:before {
 	content: "\e045";
 }
-.icon-phone:before {
+.icon-phone-1:before {
 	content: "\e046";
 }
-.icon-phone-hang-up:before {
+.icon-phone-2:before {
 	content: "\e047";
 }
-.icon-home:before {
+.icon-home-1:before {
 	content: "\e048";
 }
 .icon-home-2:before {
 	content: "\e049";
 }
-.icon-remove:before {
+.icon-trash:before {
 	content: "\e04a";
 }
-.icon-remove-2:before {
+.icon-trash-2:before {
 	content: "\e04b";
 }
-.icon-lock:before {
+.icon-lock-1:before {
 	content: "\e04c";
 }
 .icon-lock-2:before {
@@ -262,16 +248,16 @@ you can use the generic selector below, but it's slower:
 .icon-key:before {
 	content: "\e04e";
 }
-.icon-unlocked:before {
+.icon-unlock:before {
 	content: "\e04f";
 }
-.icon-cog:before {
+.icon-gear:before {
 	content: "\e050";
 }
 .icon-fire:before {
 	content: "\e051";
 }
-.icon-menu:before {
+.icon-list-1:before {
 	content: "\e024";
 }
 .icon-github-3:before {
@@ -289,6 +275,12 @@ you can use the generic selector below, but it's slower:
 .icon-pinterest-2:before {
 	content: "\e015";
 }
-.icon-list:before {
+.icon-list-2:before {
 	content: "\e052";
+}
+.icon-download:before {
+	content: "\e600";
+}
+.icon-upload:before {
+	content: "\e601";
 }

@@ -292,32 +292,10 @@ table{
 /* END NAVIGATION */
 
 /* ICONS */
-.icon-facebook-2{
-	color: #56a;
-}
-.icon-twitter-2{
-	color: #08b;
-}
-.icon-linkedin-2{
-	color: #069;
-}
-.icon-github,
-.icon-github-2{
-	color: #222;
-}
-.icon-stackoverflow{
-	color: #f90;
-}
-.icon-pinterest-2{
-	color: #a22;
-}
-
-.icon-facebook,
-.icon-twitter,
-.icon-linkedin,
-.icon-github-3,
-.icon-pinterest,
-.icon-envelop{
+.icon-facebook-1,
+.icon-twitter-1,
+.icon-linkedin-1,
+.icon-github-3{
 	color: #fff;
 }
 /* END ICONS */
