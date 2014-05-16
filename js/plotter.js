@@ -66,6 +66,8 @@ $(document).ready(function(){
         p2 = {},
         p3 = {},
         p4 = {},
+        tickStartX,
+        tickStartY,
         i;
 
     if(minX > 0){
@@ -95,9 +97,21 @@ $(document).ready(function(){
     drawLine(p1,p2,axesColor);
     drawLine(p3,p4,axesColor);
 
+    tickStartY = p3.y;
+    while(tickStartY > minY){
+      tickStartY -= (maxY - minY) / ticks;
+    }
+    tickStartY += (maxY - minY) / ticks;
+
+    tickStartX = p1.x;
+    while(tickStartX > minX){
+      tickStartX -= (maxX - minX) / ticks;
+    }
+    tickStartX += (maxX - minX) / ticks;
+
     for(i=0;i<ticks;i++){
-      p1.y = minY + i * (maxY - minY) / ticks;
-      p3.x = minX + i * (maxX - minX) / ticks;
+      p1.y = tickStartY + i * (maxY - minY) / ticks;
+      p3.x = tickStartX + i * (maxX - minX) / ticks;
       drawTick(false,p1);
       drawTick(true,p3);
     }
